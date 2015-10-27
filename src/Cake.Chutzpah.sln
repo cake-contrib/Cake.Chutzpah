@@ -1,0 +1,55 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.23107.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Cake.Chutzpah", "Cake.Chutzpah\Cake.Chutzpah.csproj", "{DA66C5D3-83ED-400F-99BD-498172091846}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Cake.Chutzpah.Tests", "Cake.Chutzpah.Tests\Cake.Chutzpah.Tests.csproj", "{744728AC-17BA-434E-A2D7-EA3C27F0C7E8}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Build", "Build", "{43B08352-A30C-48FB-93A6-7C9B8FD3D56D}"
+	ProjectSection(SolutionItems) = preProject
+		..\build.cake = ..\build.cake
+		..\build.ps1 = ..\build.ps1
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "nuspec", "nuspec", "{C839B8F8-5A08-4A46-985A-2AA146F250A0}"
+	ProjectSection(SolutionItems) = preProject
+		..\nuspec\Cake.Chutzpah.nuspec = ..\nuspec\Cake.Chutzpah.nuspec
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tools", "tools", "{E93AEEF5-9D19-41A9-B449-53EED78006B2}"
+	ProjectSection(SolutionItems) = preProject
+		..\tools\packages.config = ..\tools\packages.config
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Meta", "Meta", "{2F20592E-E7D6-43E5-B669-28732A65787A}"
+	ProjectSection(SolutionItems) = preProject
+		..\LICENSE = ..\LICENSE
+		..\README.md = ..\README.md
+		..\ReleaseNotes.md = ..\ReleaseNotes.md
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{DA66C5D3-83ED-400F-99BD-498172091846}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DA66C5D3-83ED-400F-99BD-498172091846}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DA66C5D3-83ED-400F-99BD-498172091846}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DA66C5D3-83ED-400F-99BD-498172091846}.Release|Any CPU.Build.0 = Release|Any CPU
+		{744728AC-17BA-434E-A2D7-EA3C27F0C7E8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{744728AC-17BA-434E-A2D7-EA3C27F0C7E8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{744728AC-17BA-434E-A2D7-EA3C27F0C7E8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{744728AC-17BA-434E-A2D7-EA3C27F0C7E8}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{C839B8F8-5A08-4A46-985A-2AA146F250A0} = {43B08352-A30C-48FB-93A6-7C9B8FD3D56D}
+		{E93AEEF5-9D19-41A9-B449-53EED78006B2} = {43B08352-A30C-48FB-93A6-7C9B8FD3D56D}
+	EndGlobalSection
+EndGlobal
