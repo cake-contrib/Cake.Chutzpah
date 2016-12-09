@@ -134,7 +134,7 @@ namespace Cake.Chutzpah
 
             if (settings.MaxParallelism.HasValue)
             {
-                argBuilder.Append("/parallelism {0}", settings.MaxParallelism);
+                argBuilder.Append("/parallelism").Append(settings.MaxParallelism.ToString());
             }
 
             if (!settings.OutputRunningTestCount)
