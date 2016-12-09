@@ -18,16 +18,15 @@ namespace Cake.Chutzpah
         /// <param name="context">The context.</param>
         /// <param name="testPath">The path containing tests.</param>
         /// <param name="settings">The settings.</param>
-        /// <exception cref="System.ArgumentNullException"></exception>
         [CakeMethodAlias]
-        public static void Chutzpah(this ICakeContext context, Path testPath = null,
-            ChutzpahSettings settings = null)
+        public static void Chutzpah(this ICakeContext context, Path testPath = null, ChutzpahSettings settings = null)
         {
             if (context == null)
+            {
                 throw new ArgumentNullException(nameof(context));
+            }
 
-            var runner = new ChutzpahRunner(context.FileSystem, context.Environment,
-                context.ProcessRunner, context.Globber);
+            var runner = new ChutzpahRunner(context.FileSystem, context.Environment, context.ProcessRunner, context.Tools);
             runner.Run(testPath, settings);
         }
     }

@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CoverageSession xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Summary numSequencePoints="0" visitedSequencePoints="0" numBranchPoints="0" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="0" maxCyclomaticComplexity="0" minCyclomaticComplexity="0" visitedClasses="0" numClasses="0" visitedMethods="0" numMethods="0" />
+  <Modules>
+    <Module skippedDueTo="Filter" hash="D8-53-B0-07-8D-F9-9A-13-7D-98-00-E6-F2-C4-C4-74-70-5D-80-7A">
+      <ModulePath>C:\WINDOWS\Microsoft.Net\assembly\GAC_64\mscorlib\v4.0_4.0.0.0__b77a5c561934e089\mscorlib.dll</ModulePath>
+      <ModuleTime>2016-11-16T11:43:42.3692597Z</ModuleTime>
+      <ModuleName>mscorlib</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="Filter" hash="C9-73-ED-04-00-C6-51-60-27-F2-A0-0B-90-05-B8-86-6E-DB-6B-00">
+      <ModulePath>D:\github\Organisations\cake-contrib\Cake.Chutzpah\tools\xunit.runner.console\tools\xunit.console.exe</ModulePath>
+      <ModuleTime>2015-09-27T09:34:28Z</ModuleTime>
+      <ModuleName>xunit.console</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="Filter" hash="2C-BE-1B-C3-02-35-ED-A0-CC-7C-AB-BA-F1-C5-8D-DE-79-03-01-9A">
+      <ModulePath>D:\github\Organisations\cake-contrib\Cake.Chutzpah\tools\xunit.runner.console\tools\xunit.runner.utility.desktop.dll</ModulePath>
+      <ModuleTime>2015-09-27T09:34:28Z</ModuleTime>
+      <ModuleName>xunit.runner.utility.desktop</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="Filter" hash="9E-A9-5D-7F-86-82-4D-02-7D-07-AD-C0-17-06-5D-73-8F-1F-28-44">
+      <ModulePath>D:\github\Organisations\cake-contrib\Cake.Chutzpah\tools\xunit.runner.console\tools\xunit.abstractions.dll</ModulePath>
+      <ModuleTime>2015-09-27T09:34:28Z</ModuleTime>
+      <ModuleName>xunit.abstractions</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="Filter" hash="31-76-6A-81-5B-45-2B-B2-02-8C-E4-69-D2-C3-8F-87-B1-54-25-E8">
+      <ModulePath>C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\System.Core\v4.0_4.0.0.0__b77a5c561934e089\System.Core.dll</ModulePath>
+      <ModuleTime>2016-11-16T11:43:42.6293649Z</ModuleTime>
+      <ModuleName>System.Core</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="Filter" hash="AA-84-EA-4A-FD-23-17-44-E5-3B-73-2A-3D-B6-0E-17-EE-E1-53-6A">
+      <ModulePath>D:\github\Organisations\cake-contrib\Cake.Chutzpah\tools\xunit.runner.console\tools\xunit.runner.reporters.desktop.dll</ModulePath>
+      <ModuleTime>2015-09-27T09:34:28Z</ModuleTime>
+      <ModuleName>xunit.runner.reporters.desktop</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="Filter" hash="89-DD-2A-3B-C0-B4-7D-15-D9-76-B9-27-55-4B-FA-41-13-70-B3-D7">
+      <ModulePath>C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\System.Net.Http\v4.0_4.0.0.0__b03f5f7f11d50a3a\System.Net.Http.dll</ModulePath>
+      <ModuleTime>2016-11-16T11:43:42.5633128Z</ModuleTime>
+      <ModuleName>System.Net.Http</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="Filter" hash="10-12-A2-C6-A0-B8-51-63-D1-3A-89-CF-6B-26-F7-7D-C2-69-68-B0">
+      <ModulePath>C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\System\v4.0_4.0.0.0__b77a5c561934e089\System.dll</ModulePath>
+      <ModuleTime>2016-02-26T03:21:48Z</ModuleTime>
+      <ModuleName>System</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="Filter" hash="F3-16-D4-5E-C5-50-B3-22-7B-4E-24-71-CD-D2-35-E6-9C-74-2B-E4">
+      <ModulePath>C:\WINDOWS\Microsoft.Net\assembly\GAC_64\System.Web\v4.0_4.0.0.0__b03f5f7f11d50a3a\System.Web.dll</ModulePath>
+      <ModuleTime>2016-11-16T11:43:39.4474023Z</ModuleTime>
+      <ModuleName>System.Web</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="Filter" hash="DF-4A-DE-40-BE-24-D6-36-12-5C-3E-21-0D-59-5D-93-07-87-C1-6D">
+      <ModulePath>C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\System.Xml.Linq\v4.0_4.0.0.0__b77a5c561934e089\System.Xml.Linq.dll</ModulePath>
+      <ModuleTime>2013-08-10T00:55:49.3051911Z</ModuleTime>
+      <ModuleName>System.Xml.Linq</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="Filter" hash="14-44-50-38-34-98-5F-C6-45-8B-50-B5-CF-D7-E1-0A-28-8F-5E-E8">
+      <ModulePath>C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\System.Xml\v4.0_4.0.0.0__b77a5c561934e089\System.Xml.dll</ModulePath>
+      <ModuleTime>2015-12-03T03:40:40Z</ModuleTime>
+      <ModuleName>System.Xml</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="Filter" hash="9C-DB-95-DC-25-D5-38-7E-C2-3A-20-8F-14-5D-A9-56-2A-D7-00-E3">
+      <ModulePath>C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\System.Configuration\v4.0_4.0.0.0__b03f5f7f11d50a3a\System.Configuration.dll</ModulePath>
+      <ModuleTime>2016-11-16T11:43:42.63237Z</ModuleTime>
+      <ModuleName>System.Configuration</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="Filter" hash="2C-BE-1B-C3-02-35-ED-A0-CC-7C-AB-BA-F1-C5-8D-DE-79-03-01-9A">
+      <ModulePath>C:\Users\gary.park\AppData\Local\Temp\1cfcd477-37d2-489b-aaa9-eedb9069f338\1cfcd477-37d2-489b-aaa9-eedb9069f338\assembly\dl3\9c2b15a8\00aa5fb4_07f9d001\xunit.runner.utility.desktop.dll</ModulePath>
+      <ModuleTime>2016-12-09T21:47:44.8518997Z</ModuleTime>
+      <ModuleName>xunit.runner.utility.desktop</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="Filter" hash="31-76-6A-81-5B-45-2B-B2-02-8C-E4-69-D2-C3-8F-87-B1-54-25-E8">
+      <ModulePath>C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\System.Core\v4.0_4.0.0.0__b77a5c561934e089\System.Core.dll</ModulePath>
+      <ModuleTime>2016-11-16T11:43:42.6293649Z</ModuleTime>
+      <ModuleName>System.Core</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="Filter" hash="10-12-A2-C6-A0-B8-51-63-D1-3A-89-CF-6B-26-F7-7D-C2-69-68-B0">
+      <ModulePath>C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\System\v4.0_4.0.0.0__b77a5c561934e089\System.dll</ModulePath>
+      <ModuleTime>2016-02-26T03:21:48Z</ModuleTime>
+      <ModuleName>System</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="MissingPdb" hash="">
+      <ModulePath>RefEmit_InMemoryManifestModule</ModulePath>
+      <ModuleTime>0001-01-01T00:00:00</ModuleTime>
+      <ModuleName>Anonymously Hosted DynamicMethods Assembly</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="Filter" hash="1F-87-6B-C8-F4-39-05-58-22-61-8B-EA-D5-4A-11-DD-E3-D5-48-80">
+      <ModulePath>D:\github\Organisations\cake-contrib\Cake.Chutzpah\BuildArtifacts\temp\_PublishedxUnitTests\Cake.Chutzpah.Tests\Cake.Chutzpah.Tests.dll</ModulePath>
+      <ModuleTime>2016-12-09T21:47:38.9379221Z</ModuleTime>
+      <ModuleName>Cake.Chutzpah.Tests</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="MissingPdb" hash="A4-CE-98-D7-2B-65-09-A7-13-EC-9C-81-EB-97-AE-0E-59-C1-C3-47">
+      <ModulePath>D:\github\Organisations\cake-contrib\Cake.Chutzpah\BuildArtifacts\temp\_PublishedxUnitTests\Cake.Chutzpah.Tests\Ploeh.AutoFixture.Xunit2.dll</ModulePath>
+      <ModuleTime>2016-08-31T17:28:06Z</ModuleTime>
+      <ModuleName>Ploeh.AutoFixture.Xunit2</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="Filter" hash="9F-06-B1-CA-CB-A0-C1-4D-45-F5-AA-8F-72-C0-DF-0F-F4-EF-29-CF">
+      <ModulePath>D:\github\Organisations\cake-contrib\Cake.Chutzpah\BuildArtifacts\temp\_PublishedxUnitTests\Cake.Chutzpah.Tests\xunit.core.dll</ModulePath>
+      <ModuleTime>2015-09-27T09:34:26Z</ModuleTime>
+      <ModuleName>xunit.core</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="Filter" hash="0F-9F-A3-39-21-7F-A6-A8-62-42-36-5D-39-6A-E3-44-A3-53-08-C2">
+      <ModulePath>C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\System.Runtime\v4.0_4.0.0.0__b03f5f7f11d50a3a\System.Runtime.dll</ModulePath>
+      <ModuleTime>2016-11-16T11:43:42.5322519Z</ModuleTime>
+      <ModuleName>System.Runtime</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="Filter" hash="EC-FF-9D-4B-0C-AE-7A-3C-63-A6-9E-91-68-0A-BA-A4-D2-4E-03-EE">
+      <ModulePath>C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\System.Reflection\v4.0_4.0.0.0__b03f5f7f11d50a3a\System.Reflection.dll</ModulePath>
+      <ModuleTime>2013-08-10T00:55:16.7082446Z</ModuleTime>
+      <ModuleName>System.Reflection</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="Filter" hash="51-60-07-3A-41-C0-01-C6-0C-80-56-7D-83-63-89-31-36-5F-A9-FE">
+      <ModulePath>D:\github\Organisations\cake-contrib\Cake.Chutzpah\BuildArtifacts\temp\_PublishedxUnitTests\Cake.Chutzpah.Tests\xunit.execution.desktop.dll</ModulePath>
+      <ModuleTime>2015-09-27T09:34:28Z</ModuleTime>
+      <ModuleName>xunit.execution.desktop</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="Filter" hash="1F-87-6B-C8-F4-39-05-58-22-61-8B-EA-D5-4A-11-DD-E3-D5-48-80">
+      <ModulePath>D:\github\Organisations\cake-contrib\Cake.Chutzpah\BuildArtifacts\temp\_PublishedxUnitTests\Cake.Chutzpah.Tests\Cake.Chutzpah.Tests.dll</ModulePath>
+      <ModuleTime>2016-12-09T21:47:38.9379221Z</ModuleTime>
+      <ModuleName>Cake.Chutzpah.Tests</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="Filter" hash="9F-06-B1-CA-CB-A0-C1-4D-45-F5-AA-8F-72-C0-DF-0F-F4-EF-29-CF">
+      <ModulePath>D:\github\Organisations\cake-contrib\Cake.Chutzpah\BuildArtifacts\temp\_PublishedxUnitTests\Cake.Chutzpah.Tests\xunit.core.dll</ModulePath>
+      <ModuleTime>2015-09-27T09:34:26Z</ModuleTime>
+      <ModuleName>xunit.core</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="Filter" hash="0F-9F-A3-39-21-7F-A6-A8-62-42-36-5D-39-6A-E3-44-A3-53-08-C2">
+      <ModulePath>C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\System.Runtime\v4.0_4.0.0.0__b03f5f7f11d50a3a\System.Runtime.dll</ModulePath>
+      <ModuleTime>2016-11-16T11:43:42.5322519Z</ModuleTime>
+      <ModuleName>System.Runtime</ModuleName>
+      <Classes />
+    </Module>
+    <Module skippedDueTo="MissingPdb" hash="A4-CE-98-D7-2B-65-09-A7-13-EC-9C-81-EB-97-AE-0E-59-C1-C3-47">
+      <ModulePath>D:\github\Organisations\cake-contrib\Cake.Chutzpah\BuildArtifacts\temp\_PublishedxUnitTests\Cake.Chutzpah.Tests\Ploeh.AutoFixture.Xunit2.dll</ModulePath>
+      <ModuleTime>2016-08-31T17:28:06Z</ModuleTime>
+      <ModuleName>Ploeh.AutoFixture.Xunit2</ModuleName>
+      <Classes />
+    </Module>
+  </Modules>
+</CoverageSession>

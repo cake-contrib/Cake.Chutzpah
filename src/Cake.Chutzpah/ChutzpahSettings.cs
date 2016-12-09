@@ -1,12 +1,13 @@
 ﻿using System.Collections.Generic;
 using Cake.Core.IO;
+using Cake.Core.Tooling;
 
 namespace Cake.Chutzpah
 {
     /// <summary>
-    /// 
+    /// Contains settings used by <see cref="ChutzpahRunner"/>.
     /// </summary>
-    public class ChutzpahSettings
+    public class ChutzpahSettings : ToolSettings
     {
         /// <summary>
         /// Gets or sets a value indicating whether to output running test count.
@@ -33,7 +34,7 @@ namespace Cake.Chutzpah
         /// <c>true</c> if [fail on error]; otherwise, <c>false</c>.
         /// </value>
         public bool FailOnError { get; set; } = false;
-        
+
         /// <summary>
         /// Gets or sets a value indicating whether to run without showing the copyright message.
         /// </summary>
@@ -54,14 +55,14 @@ namespace Cake.Chutzpah
         /// <c>true</c> if trace; otherwise, <c>false</c>.
         /// </value>
         public bool Trace { get; set; } = false;
-        
+
         /// <summary>
         /// Gets or sets a value indicating whether to enable coverage collection.
         /// </summary>
         public bool EnableCoverageCollection { get; set; } = false;
-        
+
         /// <summary>
-        /// Gets or sets a value indicating whether to show a failure report after the test run. 
+        /// Gets or sets a value indicating whether to show a failure report after the test run.
         /// Useful if you have a large number of tests..
         /// </summary>
         public bool ShowFailureReport { get; set; } = false;
@@ -73,7 +74,7 @@ namespace Cake.Chutzpah
         public ChutzpahBrowser LaunchInBrowser { get; set; } = ChutzpahBrowser.None;
 
         /// <summary>
-        /// Gets or sets the Max degree of parallelism for Chutzpah. 
+        /// Gets or sets the Max degree of parallelism for Chutzpah.
         /// Defaults to number of CPUs + 1
         /// If you specify more than 1 the test output may be a bit jumbled
         /// </summary>
@@ -116,8 +117,7 @@ namespace Cake.Chutzpah
         /// </summary>
         public FilePath CoverageHtmlOutputFile { get; set; }
 
-
-        //settingsFileEnvironment? Sets the environment properties for a chutzpah.json settings file.
+        // settingsFileEnvironment? Sets the environment properties for a chutzpah.json settings file.
         // Specify more than one to add multiple environments. (e.g.settingsFilePath; prop1=val1;prop2=val2).
     }
 }
