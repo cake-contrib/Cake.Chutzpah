@@ -9,19 +9,23 @@
         /// Do not launch in browser
         /// </summary>
         None,
+
         /// <summary>
         /// Launch in default browser
         /// </summary>
         DefaultBrowser,
+
         /// <summary>
         /// Launch in Internet Explorer
         /// </summary>
         // ReSharper disable once InconsistentNaming
         IE,
+
         /// <summary>
-        /// Launch in Firefox 
+        /// Launch in Firefox
         /// </summary>
         Firefox,
+
         /// <summary>
         /// Launch in Chrome
         /// </summary>

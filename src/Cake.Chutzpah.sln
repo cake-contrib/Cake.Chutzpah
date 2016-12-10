@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 14
-VisualStudioVersion = 14.0.23107.0
+VisualStudioVersion = 14.0.25420.1
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Cake.Chutzpah", "Cake.Chutzpah\Cake.Chutzpah.csproj", "{DA66C5D3-83ED-400F-99BD-498172091846}"
 EndProject
@@ -9,14 +9,11 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Cake.Chutzpah.Tests", "Cake
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Build", "Build", "{43B08352-A30C-48FB-93A6-7C9B8FD3D56D}"
 	ProjectSection(SolutionItems) = preProject
-		..\build.cake = ..\build.cake
 		..\build.ps1 = ..\build.ps1
+		..\setup.cake = ..\setup.cake
 	EndProjectSection
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "nuspec", "nuspec", "{C839B8F8-5A08-4A46-985A-2AA146F250A0}"
-	ProjectSection(SolutionItems) = preProject
-		..\nuspec\Cake.Chutzpah.nuspec = ..\nuspec\Cake.Chutzpah.nuspec
-	EndProjectSection
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tools", "tools", "{E93AEEF5-9D19-41A9-B449-53EED78006B2}"
 	ProjectSection(SolutionItems) = preProject
@@ -27,7 +24,11 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Meta", "Meta", "{2F20592E-E
 	ProjectSection(SolutionItems) = preProject
 		..\LICENSE = ..\LICENSE
 		..\README.md = ..\README.md
-		..\ReleaseNotes.md = ..\ReleaseNotes.md
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "nuget", "nuget", "{CF0E237C-AC40-43ED-8152-8E04CD7E1EDC}"
+	ProjectSection(SolutionItems) = preProject
+		..\nuspec\nuget\Cake.Chutzpah.nuspec = ..\nuspec\nuget\Cake.Chutzpah.nuspec
 	EndProjectSection
 EndProject
 Global
@@ -51,5 +52,6 @@ Global
 	GlobalSection(NestedProjects) = preSolution
 		{C839B8F8-5A08-4A46-985A-2AA146F250A0} = {43B08352-A30C-48FB-93A6-7C9B8FD3D56D}
 		{E93AEEF5-9D19-41A9-B449-53EED78006B2} = {43B08352-A30C-48FB-93A6-7C9B8FD3D56D}
+		{CF0E237C-AC40-43ED-8152-8E04CD7E1EDC} = {C839B8F8-5A08-4A46-985A-2AA146F250A0}
 	EndGlobalSection
 EndGlobal

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+  <metadata>
+    <id>Cake.Chutzpah</id>
+    <version>0.0.0</version>
+    <authors>James Nail</authors>
+    <owners>James Nail, cake-contrib</owners>
+    <description>Chutzpah addin for Cake build.</description>
+    <summary>Chutzpah addin for Cake build.</summary>
+    <licenseUrl>https://github.com/cake-contrib/Cake.Coveralls/blob/master/LICENSE</licenseUrl>
+    <projectUrl>https://github.com/cake-contrib/Cake.Chutzpah</projectUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <copyright>Copyright (c) Cake Contributions 2016 - Present</copyright>
+    <tags>Cake Script Build Chutzpah</tags>
+  </metadata>
+  <files>
+    <file src="Cake.Chutzpah.dll" target="lib\net45" />
+    <file src="Cake.Chutzpah.pdb" target="lib\net45" />
+    <file src="Cake.Chutzpah.xml" target="lib\net45" />
+  </files>
+</package>

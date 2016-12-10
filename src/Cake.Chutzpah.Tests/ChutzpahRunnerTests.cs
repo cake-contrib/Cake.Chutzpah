@@ -1,6 +1,6 @@
 using Cake.Core;
 using Cake.Core.IO;
-using Cake.Core.Utilities;
+using Cake.Core.Tooling;
 using FluentAssertions;
 using NSubstitute;
 using Ploeh.AutoFixture.Xunit2;
@@ -72,28 +72,7 @@ namespace Cake.Chutzpah.Tests
 
                 sut.Invoking(s => s.Run())
                     .ShouldThrow<CakeException>()
-                    .WithMessage("Chutzpah: Process returned an error.");
-            }
-
-            [Theory, CustomAutoData]
-            public void ProcessRunnerShouldStartChutzpah([Frozen] ICakeEnvironment environment,
-                [Frozen] IProcess process, [Frozen] IGlobber globber,
-                [Frozen] IProcessRunner processRunner,
-                [Frozen] IFileSystem fileSystem, ChutzpahRunner sut)
-            {
-                environment.WorkingDirectory.Returns("/Working");
-                globber.Match("./tools/**/chutzpah.console.exe")
-                    .Returns(new[] { (FilePath)"/Working/tools/chutzpah.console.exe" });
-                process.GetExitCode().Returns(0);
-                fileSystem.Exist(Arg.Any<FilePath>())
-                    .Returns(true);
-
-                sut.Run();
-
-                processRunner.Received(1)
-                    .Start(
-                        Arg.Is<FilePath>(fp => fp.FullPath == "/Working/tools/chutzpah.console.exe"),
-                        Arg.Any<ProcessSettings>());
+                    .WithMessage("Chutzpah: Process returned an error (exit code 3).");
             }
 
             [Theory, CustomAutoData]

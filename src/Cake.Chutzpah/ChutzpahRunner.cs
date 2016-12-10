@@ -1,11 +1,12 @@
 ﻿using System.Collections.Generic;
 using Cake.Core;
 using Cake.Core.IO;
-using Cake.Core.Utilities;
+using Cake.Core.Tooling;
 
 namespace Cake.Chutzpah
 {
     /// <summary>
+    /// The Chutzpah Runner.
     /// </summary>
     public class ChutzpahRunner : Tool<ChutzpahSettings>
     {
@@ -15,10 +16,9 @@ namespace Cake.Chutzpah
         /// <param name="fileSystem">The file system.</param>
         /// <param name="environment">The environment.</param>
         /// <param name="processRunner">The process runner.</param>
-        /// <param name="globber">The globber.</param>
-        public ChutzpahRunner(IFileSystem fileSystem, ICakeEnvironment environment,
-            IProcessRunner processRunner, IGlobber globber)
-            : base(fileSystem, environment, processRunner, globber)
+        /// <param name="toolLocator">The tool locator</param>
+        public ChutzpahRunner(IFileSystem fileSystem, ICakeEnvironment environment, IProcessRunner processRunner, IToolLocator toolLocator)
+            : base(fileSystem, environment, processRunner, toolLocator)
         {
         }
 
@@ -39,30 +39,11 @@ namespace Cake.Chutzpah
         public IEnumerable<string> ToolExecutableNames => GetToolExecutableNames();
 
         /// <summary>
-        ///     Gets the name of the tool.
-        /// </summary>
-        /// <returns>
-        ///     The name of the tool.
-        /// </returns>
-        protected override string GetToolName() => "Chutzpah";
-
-        /// <summary>
-        ///     Gets the possible names of the tool executable.
-        /// </summary>
-        /// <returns>
-        ///     The tool executable name.
-        /// </returns>
-        protected override IEnumerable<string> GetToolExecutableNames()
-        {
-            yield return "chutzpah.console.exe";
-        }
-
-        /// <summary>
         ///     Runs tests in the specified testFile (or in the working directory if null) with the specified settings (or default settings if null).
         /// </summary>
-        /// <param name="testPath"></param>
-        /// <param name="settings"></param>
-        public void Run(Path testPath = null,ChutzpahSettings settings = null)
+        /// <param name="testPath">The Path to the file that should be tested.</param>
+        /// <param name="settings">The settings to use when executing Chutzpah.</param>
+        public void Run(Path testPath = null, ChutzpahSettings settings = null)
         {
             settings = settings ?? new ChutzpahSettings();
 
@@ -134,7 +115,7 @@ namespace Cake.Chutzpah
 
             if (settings.MaxParallelism.HasValue)
             {
-                argBuilder.Append("/parallelism {0}", settings.MaxParallelism);
+                argBuilder.Append("/parallelism").Append(settings.MaxParallelism.ToString());
             }
 
             if (!settings.OutputRunningTestCount)
@@ -163,6 +144,25 @@ namespace Cake.Chutzpah
             }
 
             Run(settings, argBuilder);
+        }
+
+        /// <summary>
+        ///     Gets the name of the tool.
+        /// </summary>
+        /// <returns>
+        ///     The name of the tool.
+        /// </returns>
+        protected override string GetToolName() => "Chutzpah";
+
+        /// <summary>
+        ///     Gets the possible names of the tool executable.
+        /// </summary>
+        /// <returns>
+        ///     The tool executable name.
+        /// </returns>
+        protected override IEnumerable<string> GetToolExecutableNames()
+        {
+            yield return "chutzpah.console.exe";
         }
     }
 }
