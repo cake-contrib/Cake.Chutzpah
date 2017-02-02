@@ -15,7 +15,7 @@ BuildParameters.PrintParamters(Context);
 ToolSettings.SetToolSettings(context: Context,
                             dupFinderExcludePattern: new string[] { 
                                 BuildParameters.RootDirectoryPath + "/src/Cake.Chutzpah.Tests/*.cs" },
-                            testCoverageFilter: "+[*]* -[xunit.*]* -[Cake.Core]* -[Cake.Testing]* -[*.Tests]* ",
+                            testCoverageFilter: "+[*]* -[xunit.*]* -[Cake.Core]* -[Cake.Testing]* -[*.Tests]* -[FluentAssertions]* -[FluentAssertions.*]*",
                             testCoverageExcludeByAttribute: "*.ExcludeFromCodeCoverage*",
                             testCoverageExcludeByFile: "*/*Designer.cs;*/*.g.cs;*/*.g.i.cs");
 
