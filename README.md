@@ -21,6 +21,10 @@ Cake.Chutzpah is an Addin for [Cake](http://cakebuild.net/) to allow the executi
 
 [![Coverage Status](https://coveralls.io/repos/github/cake-contrib/Cake.Chutzpah/badge.svg?branch=develop)](https://coveralls.io/github/cake-contrib/Cake.Chutzpah?branch=develop)
 
+## Quick Links
+
+- [Documentation](https://cake-contrib.github.io/Cake.Chutzpah/)
+
 ## Chat Room
 Come join in the conversation about Cake.Chutzpah in our Gitter Chat Room
 
