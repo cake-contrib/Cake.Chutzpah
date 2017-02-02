@@ -34,8 +34,8 @@ var searchModule = function() {
 
     a({
         id:0,
-        title:"ChutzpahAliases",
-        content:"ChutzpahAliases",
+        title:"ChutzpahRunner",
+        content:"ChutzpahRunner",
         description:'',
         tags:''
     });
@@ -50,23 +50,23 @@ var searchModule = function() {
 
     a({
         id:2,
-        title:"ChutzpahRunner",
-        content:"ChutzpahRunner",
-        description:'',
-        tags:''
-    });
-
-    a({
-        id:3,
         title:"ChutzpahBrowser",
         content:"ChutzpahBrowser",
         description:'',
         tags:''
     });
 
-    y({
-        url:'/Cake.Chutzpah/Cake.Chutzpah/api/Cake.Chutzpah/ChutzpahAliases',
+    a({
+        id:3,
         title:"ChutzpahAliases",
+        content:"ChutzpahAliases",
+        description:'',
+        tags:''
+    });
+
+    y({
+        url:'/Cake.Chutzpah/Cake.Chutzpah/api/Cake.Chutzpah/ChutzpahRunner',
+        title:"ChutzpahRunner",
         description:""
     });
 
@@ -77,14 +77,14 @@ var searchModule = function() {
     });
 
     y({
-        url:'/Cake.Chutzpah/Cake.Chutzpah/api/Cake.Chutzpah/ChutzpahRunner',
-        title:"ChutzpahRunner",
+        url:'/Cake.Chutzpah/Cake.Chutzpah/api/Cake.Chutzpah/ChutzpahBrowser',
+        title:"ChutzpahBrowser",
         description:""
     });
 
     y({
-        url:'/Cake.Chutzpah/Cake.Chutzpah/api/Cake.Chutzpah/ChutzpahBrowser',
-        title:"ChutzpahBrowser",
+        url:'/Cake.Chutzpah/Cake.Chutzpah/api/Cake.Chutzpah/ChutzpahAliases',
+        title:"ChutzpahAliases",
         description:""
     });
 
