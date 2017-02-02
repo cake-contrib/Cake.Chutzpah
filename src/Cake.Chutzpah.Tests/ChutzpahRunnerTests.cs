@@ -76,6 +76,22 @@ namespace Cake.Chutzpah.Tests
             }
 
             [Theory, CustomAutoData]
+            public void ShouldThrowIfChutzpahExecutableNotFound(
+                [Frozen] ICakeEnvironment environment, [Frozen] IFileSystem fileSystem, [Frozen] IToolLocator tools,
+                ChutzpahRunner sut)
+            {
+                environment.WorkingDirectory.Returns("/Working");
+                tools.Resolve(Arg.Any<string>()).Returns(null as FilePath);
+                fileSystem.Exist(
+                    Arg.Is<FilePath>(a => a.FullPath.Contains("chutzpah.console.exe")))
+                    .Returns(false);
+
+                sut.Invoking(x => x.Run())
+                    .ShouldThrow<CakeException>()
+                    .WithMessage("Chutzpah: Could not locate executable.");
+            }
+
+            [Theory, CustomAutoData]
             public void ShouldBuildEmptyCommand([Frozen] IProcess process,
                 [Frozen] IProcessRunner processRunner,
                 [Frozen] IFileSystem fileSystem, ChutzpahRunner sut)
