@@ -34,16 +34,16 @@ var searchModule = function() {
 
     a({
         id:0,
-        title:"ChutzpahSettings",
-        content:"ChutzpahSettings",
+        title:"ChutzpahAliases",
+        content:"ChutzpahAliases",
         description:'',
         tags:''
     });
 
     a({
         id:1,
-        title:"ChutzpahAliases",
-        content:"ChutzpahAliases",
+        title:"ChutzpahSettings",
+        content:"ChutzpahSettings",
         description:'',
         tags:''
     });
@@ -65,14 +65,14 @@ var searchModule = function() {
     });
 
     y({
-        url:'/Cake.Chutzpah/Cake.Chutzpah/api/Cake.Chutzpah/ChutzpahSettings',
-        title:"ChutzpahSettings",
+        url:'/Cake.Chutzpah/Cake.Chutzpah/api/Cake.Chutzpah/ChutzpahAliases',
+        title:"ChutzpahAliases",
         description:""
     });
 
     y({
-        url:'/Cake.Chutzpah/Cake.Chutzpah/api/Cake.Chutzpah/ChutzpahAliases',
-        title:"ChutzpahAliases",
+        url:'/Cake.Chutzpah/Cake.Chutzpah/api/Cake.Chutzpah/ChutzpahSettings',
+        title:"ChutzpahSettings",
         description:""
     });
 
