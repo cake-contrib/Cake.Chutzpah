@@ -6,7 +6,7 @@ Cake.Chutzpah is an Addin for [Cake](http://cakebuild.net/) to allow the executi
 
 ## Information
 
-||Stable|Pre-release|
+| |Stable|Pre-release|
 |:--:|:--:|:--:|
 |GitHub Release|-|[![GitHub release](https://img.shields.io/github/release/cake-contrib/Cake.Chutzpah.svg)](https://github.com/cake-contrib/Cake.Chutzpah/releases/latest)|
 |NuGet|[![NuGet](https://img.shields.io/nuget/v/Cake.Chutzpah.svg)](https://www.nuget.org/packages/Cake.Chutzpah)|[![NuGet](https://img.shields.io/nuget/vpre/Cake.Chutzpah.svg)](https://www.nuget.org/packages/Cake.Chutzpah)|
