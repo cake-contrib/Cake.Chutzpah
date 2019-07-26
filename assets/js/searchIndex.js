@@ -53,20 +53,6 @@ var searchModule = function() {
     a(
         {
             id:1,
-            title:"ChutzpahBrowser",
-            content:"ChutzpahBrowser",
-            description:'',
-            tags:''
-        },
-        {
-            url:'/Cake.Chutzpah/api/Cake.Chutzpah/ChutzpahBrowser',
-            title:"ChutzpahBrowser",
-            description:""
-        }
-    );
-    a(
-        {
-            id:2,
             title:"ChutzpahSettings",
             content:"ChutzpahSettings",
             description:'',
@@ -75,6 +61,20 @@ var searchModule = function() {
         {
             url:'/Cake.Chutzpah/api/Cake.Chutzpah/ChutzpahSettings',
             title:"ChutzpahSettings",
+            description:""
+        }
+    );
+    a(
+        {
+            id:2,
+            title:"ChutzpahBrowser",
+            content:"ChutzpahBrowser",
+            description:'',
+            tags:''
+        },
+        {
+            url:'/Cake.Chutzpah/api/Cake.Chutzpah/ChutzpahBrowser',
+            title:"ChutzpahBrowser",
             description:""
         }
     );
